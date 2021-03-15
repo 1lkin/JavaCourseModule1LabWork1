@@ -50,7 +50,6 @@ public class T4distinctWordsWithC {
         int wordWithC = 0;
         for (int z = 0; z < distinctWords.length; z++) {
             if (distinctWords[z].charAt(0) == 'c') {
-                System.out.println(distinctWords[z]);
                 wordWithC++;
             }
             System.out.println("There are " + wordWithC +
