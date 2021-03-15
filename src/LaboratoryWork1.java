@@ -66,7 +66,8 @@ public class LaboratoryWork1 {
                 sum++;
             }
         }
-        System.out.println("Number of the line with the word \"Harry\" is met " + sum + " times");
+        System.out.println("Number of the line with the word \"Harry\" is met "
+                + sum + " times");
 
 //      3. Take  the array of distinct words from Harry Potter
         String[] distinctWordsOfHarry = Arrays.stream(harryWords)
